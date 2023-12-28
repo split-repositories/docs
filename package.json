@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "vitepress": "^1.0.0-rc.25"
+  },
+  "scripts": {
+    "dev": "vitepress dev pages",
+    "build": "vitepress build pages",
+    "format": "prettier . --ignore-path .gitignore --check",
+    "format:fix": "prettier . --ignore-path .gitignore --write"
+  }
+}
